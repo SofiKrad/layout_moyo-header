@@ -2,10 +2,6 @@
   --main-color: #00acdc;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-family: Roboto, sans-serif;
 }
@@ -15,6 +11,7 @@ body {
 }
 
 .header {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
